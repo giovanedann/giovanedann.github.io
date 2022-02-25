@@ -34,7 +34,7 @@ h2 {
 
 .header-content-container {
       background-color: #0D1517;
-      background-image: url(images/giovane.png);
+      background-image: url(../images/giovane.png);
       background-repeat: no-repeat;
       background-blend-mode: exclusion;
       background-size: 330px;
