@@ -251,6 +251,11 @@ Error generating stack: `+i.message+`
   margin: 20px 0;
   transition: 0.2s ease-in-out;
 
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+
   .skill-icon, p {
     transition: 0.2s ease-in-out;
   }
@@ -316,7 +321,7 @@ Error generating stack: `+i.message+`
   }
 
   .project-image {
-    width: 500px;
+    width: 80%;
     height: auto;
     border-radius: 10px;
   }
@@ -396,10 +401,6 @@ Error generating stack: `+i.message+`
   }
 
   @media screen and (min-width: 800px) {
-    .project-image {
-      width: 70%;
-    }
-
     .info-container {
       .project-name {
         font-size: 25px;
