@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Giovane Saes Portfolio">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.b54132ba.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.0b18bac3.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA0hJREFUWEftl21ojWEYx3/POduxmQ3btLFhMzNDNmxook15Wd4ipObtA4lIhCILKfkgogh5yyfvpS1DeY+0MKwwRmZsmAl7Ya+Pri7rnJ3zrOODdnzY9ek5931d1/2//vd9/e9zG1sxbYmz2WQzWGFCT9rBDChvNjnw/Bw7jNOzzc2GwfZ2WNdjCdMk2zg7xyxrr8rdEQgTxpk5pumL6lvW7ADQwcD/z0CnEIgcBiFRYNigtgI+PoHqj9a94wiG6FEQHAVmM3x/C+/zoanO2r9NBgw7DJ4LA6aA3dE6WBq39B4UHIX6audcVCqMXAl+ga39ayvh7k74VuIJwhKAVJq2DnqlaEBNBXx5AWYThMYrG2KS8EY2NP6CwFDI3Av2TlD1AcoegCME+ozRAqrK4coaZcXVLAEMmApJCwETCk9B0UWXQAPiMyF5EWBA8WUoOAb9JsCIpdBYB7nLoKFWl+k7TlkRu74ZKl96AWDzg6kHQfb+zTV4eMh675IXQ8RQaG6Em9sgdjwkLYD6GshZquNiUn34QP3+/g5+ffMCIDwRMrap05W18OO9NQD30R6DIH2rjsp2FeXAp6dtH76WeI8tiMmA1OXQ3ADn5+s2iKWth85h1mBksdK7MHwJxE10+jTVw+dCZVLOhJV5AIjNgJTl0NQAF7KcIZn7oEukdRI5A3IWxCKTICYdIpLBEeT0f30VHh3xjPcA0GMwpG9Rx7zVUF2u391iwObvTBDQFcZs0N/3dsGH/NbJpZPCE2DgTIhM1rnr2VBZ5Obnfh3LItMOK/riPCg4bl11wgwYmgVCc84y6N4PwuL19LewIZE2O0w/Av5B8Pg4vMrzAkCmE2fBkHkggvP4xJ+ELv8aokfDyFVg94eXufDkJLS0rvT5pVWqmGKOLtpV0g35+6Hk1l8AEBUcu1HbTKyqDCqeqRB1j4PQ/jr+tVhbUGQ2KAIm79ZtqvkEJXe0ABGi4F7QUKPAXJVTcrQpxZJIKI6bpDS6miQuua0C1PjTOSPMpK4Av4DW/qIN9/doW7qb19swMAyiUvRyMQyo/gzlD1RarUwErHcahESrUv4o1Ratq7L29wrAOuzfjXYA6GDA9wz4/Gnm88epr5/nvwHgWlqee+p1kwAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAW1JREFUOE+t081L1FEUxvHPICWljoUvxNhYJhG1SEUpIcIMwb3kpoVFEC1tb7ZSKGhb0B9QC5EkWpsgFZm0MlMKRGuGxCmlMUcTYWL4aYODm6k5y3vP+Z7nufec0FB3+i76sF9+sYnB0FB3+vc/FO+02swA0vk13p1deMCBCsIR1hL8Wsx2O1hJWQ0/v7Cxkj3fpaDhGic6gsLSI8QnmHzE0VZabpGMU17Lq3ssfQggfwHRCzT08PIOqQQZJW39zDwjc7f8mY/D1HeS3mJuNAdwvpfUd6aecKyNon1BQuoH5VFOd7EwTmyCxPQeFlpvs7bE1FMar1NUTMXJwM6bB1SeInKOunZmRvj0IkdB7UXOXmW0j/VlisNcHmD2OWURkjHmxzhzhcP1vL6fAxCi6QbHL7EaozRC7C3vHwdv0HyTlTkO1TH5kPi7XMC2rZJqwjWB9NVvWa8lVYSjJL8GX7wThR+kfMe6IMv0X+v8B4r3jtPoR1+UAAAAAElFTkSuQmCC">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700" rel="stylesheet">
     <title>Giovane Saes</title>
-    <script type="module" crossorigin src="/assets/index.476058ae.js"></script>
+    <script type="module" crossorigin src="/assets/index.dc93295e.js"></script>
   </head>
   <body>
     <div id="root"></div>
