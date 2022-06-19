@@ -60,6 +60,8 @@ Error generating stack: `+i.message+`
 
   .theme-icon {
     background: transparent;
+    position: fixed;
+    right: 100px;
     
     &:hover {
       cursor: pointer;
